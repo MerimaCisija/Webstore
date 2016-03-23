@@ -1,0 +1,134 @@
+@import url(https://fonts.googleapis.com/css?family=Helvetica);
+@import url(https://fonts.googleapis.com/css?family=Helvetica+Neue);
+@import url(https://fonts.googleapis.com/css?family=Brandon);
+
+*{box-sizing: border-box;}
+
+body,html
+{
+	background-color:#ced3d3;
+	font-family: "Brandon", Helvetica, Arial, sans-serif;
+	background: #f2f2f2;
+	width: 100%;
+	height: 100%;
+}
+
+#okvir {
+	background-color:gray;
+	width: 90%;
+	height:100%;
+	margin-left:auto;
+    margin-right:auto;
+}
+
+h1{
+	color: #2C6700;
+	font-family: 'Lato', sans-serif;
+	font-size: 54px;
+	font-weight: 300;
+	line-height: 58px;
+	margin: 0 0 58px;
+	-webkit-font-smoothing: antialiased;
+	background-color:#E5E4D7;
+	padding:10px;
+	margin:0px;
+	text-align:center;
+	padding-top:20px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+	
+#velicine{
+	padding-bottom:20px;
+	padding-top:20px;
+	padding-left: 10px;
+	padding-right:10px;
+	background: #76b852; 
+	background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+	background: -moz-linear-gradient(right, #76b852, #8DC26F);
+	background: -o-linear-gradient(right, #76b852, #8DC26F);
+	background: linear-gradient(to left, #76b852, #8DC26F);
+	text-align:center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+	
+}
+
+table
+{
+	background-color: white;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px solid #2C6700;
+	border-collapse:collapse;
+}
+
+th,td
+{
+	border: 1px solid #2C6700;
+}
+.head{
+	background: #2C6700;
+	color:white;
+}
+
+.parni {
+	background-color: silver;
+}
+
+#partneri{
+	padding-bottom:10px;
+	padding-top:20px;
+	padding-left: 30px;
+	padding-right:10px;
+	background-color:#362f2d;
+	text-align:left;
+	float:left;
+	width:30%;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	color: #F5F5F5;
+}
+
+#partneri>ul>li>a:link, #partneri>ul>li>a:visited
+{
+	color: white ;
+}
+
+#placanje{
+	padding-bottom:60px;
+	padding-top:20px;
+	padding-left: 30px;
+	padding-right:10px;
+	text-align:left;
+	float:right;
+	width:70%;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	background-color: #F5F5F5;
+	color:#362f2d;
+}
+
+#placanje>ul>li>a:link
+{
+	color: #362f2d ;
+}
+
+#placanje>ul>li>a:visited
+{
+	color: #362f2d ;
+}
+
+ul{
+	list-style-type: none;
+}
+
+ul>li>a {text-decoration:none;}
+
+ul>li:hover{
+	list-style-image: url('http://www.clippingpathhouse.com/images/tick.png');
+}
+
+#partneri>ul>li>a:hover, #placanje>ul>li>a:hover{
+	color: #76b858;
+	font-weight: bold;
+}

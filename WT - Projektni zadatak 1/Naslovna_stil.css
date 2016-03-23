@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Brandon);
+
+*{box-sizing: border-box;}
+
+
+
+body {
+	background: white; 
+	font-family: "Roboto", sans-serif;
+	display:flex;  
+	width:95%;
+	margin: auto;
+}
+
+#okvir
+{
+	background: #76b852; 
+	background: -webkit-linear-gradient(right, #76b852, #8DC26F);
+	background: -moz-linear-gradient(right, #76b852, #8DC26F);
+	background: -o-linear-gradient(right, #76b852, #8DC26F);
+	background: linear-gradient(to left, #76b852, #8DC26F);
+}
+
+#zaglavlje {
+	background-color: #f9f9f9;
+	color:#4CAF50;
+	padding:50px;
+	margin:0px;
+	text-align:center;
+	font-size: 20px;
+	opacity:0.7;
+	background-image:url(http://www.scrapsyard.com/wp-content/uploads/2015/10/Stylish-Shopping-SY12345.jpg);
+	background-repeat:no-repeat;
+	background-size: contain;
+	background-position:right;
+	}
+	
+h1
+{
+	margin:auto;
+}
+
+#meni {
+	padding: 4px;
+	background-color:#4CAF50;
+	vertical-align: center;
+}
+#meni>ul>li{
+	padding:4px;
+	vertical-align:middle;
+	display:inline;
+}
+
+#meni>ul>li>a:visited, #meni>ul>li>a:link
+{
+	color:white;
+	font-weight:bold;
+	font-size:20px;
+	text-decoration:none;
+}
+
+#meni>ul {
+	list-style:none;
+
+}
+
+#okvir {
+	width: 95%;
+	margin-left:auto;
+    margin-right:auto;
+	position: relative;
+	margin: auto;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+	font-family: "Brandon", Helvetica, Arial, sans-serif;
+	outline: 0;
+	box-sizing: border-box;
+}
