@@ -1,0 +1,79 @@
+*{box-sizing: border-box;}
+
+body {
+	background-color:#f5f5f5;
+}
+
+#naslov, #lijevi1, #desni1, p, h3{
+	margin:0%;	
+}
+
+#naslov{
+	font-size:20px;
+}
+
+.desno{
+
+	height:300px;
+	display:inline-block;
+	border:1px solid gray;
+	margin-top:15px;
+	margin-right:1%;
+	width:48%;
+	float:right;
+	background-color: #cccfc9;
+	text-align:justify;
+	padding: 6px;
+	font-size:14px;
+	overflow:hidden;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+.lijevo{
+	height:300px;
+	display:inline-block;
+	border:1px solid gray;
+	margin-top:15px;
+	margin-left:1%;
+	width:48%;
+	float:left;
+	background-color: #cccfc9;
+	text-align:justify;
+	padding: 6px;
+	font-size:14px;
+	overflow:hidden;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
+}
+
+#novosti>.lijevo>img, #novosti>.desno>img{
+	max-width:40%;
+	max-height:80%;
+	display:inline-block;
+	vertical-align:bottom;
+	float:right;
+}
+
+#novosti>div>p{
+	max-width:60%;
+	max-height:80%;
+	display:inline-block;
+	vertical-align:top;
+	float:left;
+	padding: 7px;
+}
+
+#novosti>div>.vrijeme{
+	font-size:12px;
+	margin-left:5px;
+	width:60%;
+	height:25px;
+	border: none;
+	float:top;
+}
+
+#novosti>div>h4{
+	margin:1%;
+	float:left;
+}

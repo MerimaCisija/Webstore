@@ -1,0 +1,97 @@
+#krug1 {
+	position:absolute;
+	top:100px;
+	left:60px;
+}
+
+#krug2 {
+	position:absolute;
+	left:120px;
+	top:100px;
+}
+
+.ravnaLinija
+{
+	position:absolute;
+	top:110px;
+	left:70px;
+	height:10px;
+	width:60px;
+	background:#4CAF50;
+}
+
+.krivaLinija
+{
+	position:absolute;
+	top:20px;
+	left:60px;
+	background:#4CAF50;
+	width:10px;
+	height:95px;
+	transform:rotate(345deg);
+}
+
+.ravnaLinijaDva
+{
+	position:absolute;
+	top:80px;
+	left:70px;
+	height:10px;
+	width:70px;
+	background:#4CAF50;
+}
+
+.krivaLinijaDva
+{
+	position:absolute;
+	top:46px;
+	left:136px;
+	background:#4CAF50;
+	width:10px;
+	height:40px;
+	transform:rotate(15deg);
+}
+
+.drska
+{
+	position:absolute;
+	top:12px;
+	left:41px;
+	background:#4CAF50;
+	width:10px;
+	height:20px;
+	transform:rotate(-70deg);	
+}
+
+.ravnaLinijaTri
+{
+	position:absolute;
+	top:65px;
+	left:78px;
+	height:7px;
+	width:50px;
+	background:#4CAF50;
+}
+
+.ravnaLinijaCetiri
+{
+	position:absolute;
+	top:52px;
+	left:72px;
+	height:7px;
+	width:60px;
+	background:#4CAF50;
+}
+
+.krug {
+	height:30px;
+	width:30px;
+	background:	#4CAF50;
+	overflow:hidden;
+	border-radius:50%;
+}
+
+.ravnaLinijaCetiri:hover, .ravnaLinijaTri:hover {
+	background:white;
+	box-shadow: 2px 3px 5px #888888;
+}
