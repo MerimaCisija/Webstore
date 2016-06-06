@@ -42,8 +42,8 @@ CREATE TABLE IF NOT EXISTS `komentari` (
 --
 
 INSERT INTO `komentari` (`id`, `autorId`, `novostId`, `text`, `roditeljKomentar`) VALUES
-(3, 1, 5, 'Ja sam kreirao ovu novost.', 0),
-(4, 1, 6, 'Ja sam ovo kreirao.', NULL);
+(3, 1, 5, 'Ja sam kreirala ovu novost.', 0),
+(4, 1, 6, 'Ja sam ovo kreirala.', NULL);
 
 -- --------------------------------------------------------
 
