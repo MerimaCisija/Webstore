@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<HTML >
+<HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="Naslovna_stil.css">
+    <link rel="stylesheet" type="text/css" href="Logo_stil.css">
+    <link rel="stylesheet" type="text/css" href="Novosti_stil.css">
+    <script type="text/javascript" src="new.js"></script>
+    <script type="text/javascript" src="Novosti.js"></script>
+    <TITLE>E-Boutique</TITLE>
+
+</HEAD>
+<BODY onload="ucitajNovosti()">
+<div id="okvir">
+    <div id="zaglavlje">
+        <div class="logo">
+            <div class="ravnaLinija"></div>
+            <div class="krivaLinija"></div>
+            <div class="ravnaLinijaDva"></div>
+            <div class="ravnaLinijaTri"></div>
+            <div class="ravnaLinijaCetiri"></div>
+            <div class="krivaLinijaDva"></div>
+            <div class="drska"></div>
+            <div class="krug" id="krug1"></div>
+            <div class="krug" id="krug2"></div>
+            <h1>E-Boutique</h1>
+        </div>
+    </div>
+
+    <div id="meni">
+        <ul>
+            <li><a href="Administrator.html">Panel</a></li>
+            <li><a href="Korisnici.html" >Korisnici</a></li>
+            <li><a href="Novosti.html" >Novosti</a></li>
+            <li><a href="Komentari.html" >Komentari</a></li>
+            <li><a href="javascript:Odjava();" >Odjava</a></li>
+        </ul>
+    </div>
+
+    <div id="naslov">
+        <br/>
+        <div id="novosti" >
+
+            <datalist id="ListaNovosti">
+            </datalist>
+            <form>
+                <fieldset>
+                    <legend>Uređivanje novosti</legend>
+                    <p>Izaberite novost:</p>
+                    <label>Naslov: </label> <input type="text" name="naslov" list="ListaNovosti" id="vrijednostNovost"><br><br>
+                    <label>Dostupno komentarisanje: </label> <input type="checkbox" name="komentarisanje" id="komentarisanje"><br><br>
+                    <input type="button" value="Uredi" onclick="editNovost()">
+                </fieldset>
+            </form>
+            <form>
+                <fieldset>
+                    <legend>Brisanje novosti</legend>
+                    <p>Izaberite novost:</p>
+                    <label>Naslov: </label> <input id="NovostZaBrisanje" type="text" name="naslov" list="ListaNovosti"><br><br>
+                    <input type="button" value="Obriši" onclick="deleteNovost()">
+                </fieldset>
+            </form>
+
+        </div>
+    </div>
+
+</div>
+</BODY>
+</HTML>

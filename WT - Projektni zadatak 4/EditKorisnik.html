@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<HTML >
+<HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="Naslovna_stil.css">
+    <link rel="stylesheet" type="text/css" href="Logo_stil.css">
+    <link rel="stylesheet" type="text/css" href="Novosti_stil.css">
+    <script type="text/javascript" src="new.js"></script>
+    <script type="text/javascript" src="Korisnici.js"></script>
+    <TITLE>E-Boutique</TITLE>
+
+</HEAD>
+<BODY onload="ucitajKorisnika(povuciVrijednost('korisnikUsername'))">
+<div id="okvir">
+    <div id="zaglavlje">
+        <div class="logo">
+            <div class="ravnaLinija"></div>
+            <div class="krivaLinija"></div>
+            <div class="ravnaLinijaDva"></div>
+            <div class="ravnaLinijaTri"></div>
+            <div class="ravnaLinijaCetiri"></div>
+            <div class="krivaLinijaDva"></div>
+            <div class="drska"></div>
+            <div class="krug" id="krug1"></div>
+            <div class="krug" id="krug2"></div>
+            <h1>E-Boutique</h1>
+        </div>
+    </div>
+
+    <div id="meni">
+        <ul>
+            <li><a href="Administrator.html">Panel</a></li>
+            <li><a href="Korisnici.html" >Korisnici</a></li>
+            <li><a href="Novosti.php" >Novosti</a></li>
+            <li><a href="Komentari.html" >Komentari</a></li>
+        </ul>
+    </div>
+
+    <div id="naslov">
+        <form>
+            <fieldset>
+                <legend>Edit korisnika</legend>
+                <input type="hidden" name="korisnikUsername">
+                <label>Username (*): </label> <input type="text" name="noviUsername" id="noviUsername"><br><br>
+                <label>Password (*): </label> <input type="password" name="noviPass" id="noviPass"><br><br>
+                <input type="button" value="Pošalji" class="submitButton" id="odradiUredi" onclick="editKorisnika(povuciVrijednost('korisnikUsername'))">
+            </fieldset>
+        </form>
+    </div>
+
+</div>
+</BODY>
+</HTML>
