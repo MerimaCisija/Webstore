@@ -75,7 +75,7 @@ session_start();
 		
 		<div id="meni">
 			<ul>
-				<li><a href="Naslovna.php">Naslovna stranica</a></li>
+				<li><a href="Naslovna.html">Naslovna stranica</a></li>
 				<li><a href="DodatneInformacije.html" >Dodatne informacije</a></li>
 				<li><a href="Login.php" >Prijavi se</a></li>
 				<li><a href="Kontakt.html" >Kontakt</a></li>
